@@ -14,3 +14,47 @@ Candidate I need to automate http://www.way2automation.com/angularjs-protractor/
 Scenario: Add a user and validate the user has been added to the table
 
 Scenario: Delete user User Name: novak and validate user has been deleted
+
+
+# Jaron Cheng Challenge
+
+This repository contains Robot Framework test cases for automating user management functionalities on the [Way2Automation Protractor practice website](https://www.way2automation.com/angularjs-protractor/webtables/).
+
+## 1. Prerequisites
+
+- Python 3.x installed
+- Robot Framework installed
+- SeleniumLibrary installed
+- Browser driver (e.g., ChromeDriver, GeckoDriver) installed and added to PATH
+- Edge browser installed (or modify the script to use a different browser)
+
+### Installing Robot Framework and SeleniumLibrary
+
+```bash
+pip install robotframework
+pip install robotframework-seleniumlibrary
+```
+
+## 2. Run Test Script
+
+```cmd
+robot .\manage_user.robot
+```
+
+## 3. Test Details
+
+### 3.1 Add and Validate User
+The add_and_validate_user.robot test case includes the following steps:
+- Open the browser and navigate to the URL.
+- Add a new user with predefined details.
+- Verify that the user has been added successfully.
+- Close the browser.
+
+### 3.2 Delete and Validate User
+The delete_and_validate_user.robot test case includes the following steps:
+- Open the browser and navigate to the URL.
+- Verify that the user exists.
+- Delete the user.
+- Verify that the user has been deleted successfully.
+- Close the browser.
+
