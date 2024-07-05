@@ -37,8 +37,22 @@ pip install robotframework-seleniumlibrary
 
 ## 2. Run Test Script
 
+### 2.1 Run both scenarios
+
 ```cmd
 robot .\manage_user.robot
+```
+
+### 2.2 Run Scenario: Add a user and validate the user has been added to the table
+
+```cmd
+robot --test "Add And Validate User" .\manage_user.robot
+```
+
+### 2.3 Run Scenario: Delete user User Name: novak and validate user has been deleted
+
+```cmd
+robot --test "Delete And Validate User" .\manage_user.robot
 ```
 
 ## 3. Test Details
