@@ -27,7 +27,7 @@ This repository contains Robot Framework test cases for automating user manageme
 - SeleniumLibrary installed
 - Browser driver (e.g., EdgeDriver, ChromeDriver) installed and added to PATH
 - Edge browser installed (or modify the script to use a different browser)
-- Change test data per your broswer, e.g. If your browser is Edge, then use &{EDGE_AUTOMATION} as your test data
+- Change test data in the script per your broswer, e.g. If your browser is Edge, then use &{EDGE_AUTOMATION} as test data
 
 `
 *** Test Cases ***
