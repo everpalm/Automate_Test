@@ -3,11 +3,9 @@ Library    SeleniumLibrary
 
 *** Variables ***
 &{EDGE_AUTOMATION}    browser=edge    url=https://www.way2automation.com/angularjs-protractor/webtables/    title=Protractor practice website - WebTables
-#&{CHROME_AUTOMATION}    browser=chrome    url=https://www.way2automation.com/angularjs-protractor/webtables/    title=Protractor practice website - WebTables
-#&{SAFARI_AUTOMATION}    browser=safari    url=https://www.way2automation.com/angularjs-protractor/webtables/    title=Protractor practice website - WebTables
 &{USER_HARRY}    first_name=Harry    last_name=Potter    user_name=harry    password=12345    customer=15    role=Sales Team    email=harry.potter@hogwarts.edu    cell_phone=+44 1234 567890    str_customer=Company AAA
 &{USER_NOVAK}    first_name=Mark    last_name=Novak    user_name=novak    password=67890    customer=16    role=Customer    email=novak@example.com    cell_phone=+886 0987 654321    str_customer=Company BBB
-#&{USER_JANE}    first_name=Jane    last_name=Smith    user_name=jane    password=12345    customer=15    role=Admin    email=john@example.com    cell_phone=+1 9999 00000    str_customer=Company AAA
+&{USER_JANE}    first_name=Jane    last_name=Smith    user_name=jane    password=12345    customer=15    role=Admin    email=john@example.com    cell_phone=+1 9999 00000    str_customer=Company AAA
 
 *** Test Cases ***
 Add And Validate User
