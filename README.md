@@ -27,11 +27,14 @@ This repository contains Robot Framework test cases for automating user manageme
 - SeleniumLibrary installed
 - Browser driver (e.g., EdgeDriver, ChromeDriver) installed and added to PATH
 - Edge browser installed (or modify the script to use a different browser)
-- Find variable "browser" in the code and change it to meet your environment  
+- Change test data per your broswer, e.g. If your browser is Edge, then use &{EDGE_AUTOMATION} as your test data
 
 `
-*** Variables ***
-&{EDGE_AUTOMATION}    browser=edge    url=https://www.way2automation.com/angularjs-protractor/webtables/    title=Protractor practice website - WebTables
+*** Test Cases ***
+Add And Validate User
+    [Documentation]    Add user Harry and validate the data has been added in the first row
+    [Setup]    Open Browser To URL    &{EDGE_AUTOMATION}
+...
 `
 
 ### Installing Robot Framework and SeleniumLibrary
