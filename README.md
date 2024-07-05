@@ -25,7 +25,7 @@ This repository contains Robot Framework test cases for automating user manageme
 - Python 3.x installed
 - Robot Framework installed
 - SeleniumLibrary installed
-- Browser driver (e.g., ChromeDriver, GeckoDriver) installed and added to PATH
+- Browser driver (e.g., EdgeDriver, ChromeDriver) installed and added to PATH
 - Edge browser installed (or modify the script to use a different browser)
 
 ### Installing Robot Framework and SeleniumLibrary
@@ -37,19 +37,19 @@ pip install robotframework-seleniumlibrary
 
 ## 2. Run Test Script
 
-### 2.1 Run both scenarios
+* Run both scenarios
 
 ```cmd
 robot .\manage_user.robot
 ```
 
-### 2.2 Run Scenario: Add a user and validate the user has been added to the table
+* Run Scenario: Add a user and validate the user has been added to the table
 
 ```cmd
 robot --test "Add And Validate User" .\manage_user.robot
 ```
 
-### 2.3 Run Scenario: Delete user User Name: novak and validate user has been deleted
+* 2.3 Run Scenario: Delete user User Name: novak and validate user has been deleted
 
 ```cmd
 robot --test "Delete And Validate User" .\manage_user.robot
