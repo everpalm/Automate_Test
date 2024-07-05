@@ -26,16 +26,6 @@ This repository contains Robot Framework test cases for automating user manageme
 - Robot Framework installed
 - SeleniumLibrary installed
 - Browser driver (e.g., EdgeDriver, ChromeDriver) installed and added to PATH
-- Edge browser installed (or modify the script to use a different browser)
-- Change test data in the script per your broswer, e.g. If your browser is Edge, then use &{EDGE_AUTOMATION} as test data
-
-`
-*** Test Cases ***
-Add And Validate User
-    [Documentation]    Add user Harry and validate the data has been added in the first row
-    [Setup]    Open Browser To URL    &{EDGE_AUTOMATION}
-...
-`
 
 ### Installing Robot Framework and SeleniumLibrary
 
@@ -46,22 +36,64 @@ pip install robotframework-seleniumlibrary
 
 ## 2. Run Test Script
 
+### 2.1 Edge Browser
+
 * Run Scenario: Add a user and validate the user has been added to the table
 
 ```cmd
-robot --test "Add And Validate User" .\manage_user.robot
+robot --test "Add And Validate User" .\edge_user.robot
 ```
 
 * Run Scenario: Delete user User Name: novak and validate user has been deleted
 
 ```cmd
-robot --test "Delete And Validate User" .\manage_user.robot
+robot --test "Delete And Validate User" .\edge_user.robot
 ```
 
 * Run both scenarios
 
 ```cmd
-robot .\manage_user.robot
+robot .\edge_user.robot
+```
+
+### 2.2 Chrome Browser
+
+* Run Scenario: Add a user and validate the user has been added to the table
+
+```cmd
+robot --test "Add And Validate User" .\chrome_user.robot
+```
+
+* Run Scenario: Delete user User Name: novak and validate user has been deleted
+
+```cmd
+robot --test "Delete And Validate User" .\chrome_user.robot
+```
+
+* Run both scenarios
+
+```cmd
+robot .\chrome_user.robot
+```
+
+### 2.3 Edge Browser
+
+* Run Scenario: Add a user and validate the user has been added to the table
+
+```cmd
+robot --test "Add And Validate User" .\safari_user.robot
+```
+
+* Run Scenario: Delete user User Name: novak and validate user has been deleted
+
+```cmd
+robot --test "Delete And Validate User" .\safari_user.robot
+```
+
+* Run both scenarios
+
+```cmd
+robot .\safari_user.robot
 ```
 
 ## 3. Test Details
