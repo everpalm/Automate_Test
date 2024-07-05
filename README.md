@@ -31,7 +31,7 @@ This repository contains Robot Framework test cases for automating user manageme
 
 `
 *** Variables ***
-&{EDGE_AUTOMATION}    browser=**edge**    url=https://www.way2automation.com/angularjs-protractor/webtables/    title=Protractor practice website - WebTables
+&{EDGE_AUTOMATION}    browser=edge    url=https://www.way2automation.com/angularjs-protractor/webtables/    title=Protractor practice website - WebTables
 `
 
 ### Installing Robot Framework and SeleniumLibrary
