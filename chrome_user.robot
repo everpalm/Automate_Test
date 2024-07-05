@@ -5,12 +5,12 @@ Library    SeleniumLibrary
 &{CHROME_AUTOMATION}    browser=chrome    url=https://www.way2automation.com/angularjs-protractor/webtables/    title=Protractor practice website - WebTables
 &{USER_HARRY}    first_name=Harry    last_name=Potter    user_name=harry    password=12345    customer=15    role=Sales Team    email=harry.potter@hogwarts.edu    cell_phone=+44 1234 567890    str_customer=Company AAA
 &{USER_NOVAK}    first_name=Mark    last_name=Novak    user_name=novak    password=67890    customer=16    role=Customer    email=novak@example.com    cell_phone=+886 0987 654321    str_customer=Company BBB
-&{USER_JANE}    first_name=Jane    last_name=Smith    user_name=jane    password=12345    customer=15    role=Admin    email=john@example.com    cell_phone=+1 9999 00000    str_customer=Company AAA
+#&{USER_JANE}    first_name=Jane    last_name=Smith    user_name=jane    password=12345    customer=15    role=Admin    email=john@example.com    cell_phone=+1 9999 00000    str_customer=Company AAA
 
 *** Test Cases ***
 Add And Validate User
     [Documentation]    Add user Harry and validate the data has been added in the first row
-    [Setup]    Open Browser To URL    &{EDGE_AUTOMATION}
+    [Setup]    Open Browser To URL    &{CHROME_AUTOMATION}
     Add User
     Input User Data    &{USER_HARRY}
     Verify New User    &{USER_HARRY}
@@ -18,7 +18,7 @@ Add And Validate User
 
 Delete And Validate User
     [Documentation]    Remove novak and validate the data has been deleted
-    [Setup]    Open Browser To URL    &{EDGE_AUTOMATION}
+    [Setup]    Open Browser To URL    &{CHROME_AUTOMATION}
     Verify Text    ${USER_NOVAK['user_name']}
     Delete User Name    ${USER_NOVAK['user_name']}
     [Teardown]    Close Browser
