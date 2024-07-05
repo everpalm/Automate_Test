@@ -76,7 +76,7 @@ robot --test "Delete And Validate User" .\chrome_user.robot
 robot .\chrome_user.robot
 ```
 
-### 2.3 Edge Browser
+### 2.3 Safari Browser
 
 * Run Scenario: Add a user and validate the user has been added to the table
 
