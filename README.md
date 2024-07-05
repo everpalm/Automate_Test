@@ -76,26 +76,6 @@ robot --test "Delete And Validate User" .\chrome_user.robot
 robot .\chrome_user.robot
 ```
 
-### 2.3 Safari Browser
-
-* Run Scenario: Add a user and validate the user has been added to the table
-
-```cmd
-robot --test "Add And Validate User" .\safari_user.robot
-```
-
-* Run Scenario: Delete user User Name: novak and validate user has been deleted
-
-```cmd
-robot --test "Delete And Validate User" .\safari_user.robot
-```
-
-* Run both scenarios
-
-```cmd
-robot .\safari_user.robot
-```
-
 ## 3. Test Details
 
 ### 3.1 Add and Validate User
