@@ -113,3 +113,6 @@ The delete_and_validate_user.robot test case includes the following steps:
 - Verify that the user has been deleted successfully.
 - Close the browser.
 
+## 4. Test Result
+<img width="788" alt="Screenshot 2024-07" src="https://github.com/everpalm/Automate_Test/assets/8126143/19c432c1-4f40-4260-a44d-28a626ff8049">
+
