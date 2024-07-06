@@ -114,5 +114,13 @@ The delete_and_validate_user.robot test case includes the following steps:
 - Close the browser.
 
 ## 4. Test Result
+
+### 4.1 Edge (Windows)
 <img width="788" alt="Screenshot 2024-07" src="https://github.com/everpalm/Automate_Test/assets/8126143/19c432c1-4f40-4260-a44d-28a626ff8049">
+
+### 4.2 Chrome (Windows)
+<img width="787" alt="Screenshot 2024-07-06 at 10 51 02 AM" src="https://github.com/everpalm/Automate_Test/assets/8126143/c26417fa-48da-469e-bc3a-6af7aa1d0539">
+
+
+
 
