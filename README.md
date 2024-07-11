@@ -107,7 +107,7 @@ docker pull everpalm/test_docker_build:v3
 * Run Docker image everpalm/test_docker_build
 
 ```cmd
-docker run --privileged -v /home/ubuntu/test_docker_build:/mnt $DOCKER_HUB_USERNAME/test_docker_build:v3 robot firefox_user.robot
+docker run --privileged -v /home/ubuntu/test_docker_build:/mnt everpalm/test_docker_build:v3 robot firefox_user.robot
 ```
 
 
