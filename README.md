@@ -98,10 +98,15 @@ robot safari_user.robot
 
 ### 2.4 Firefox Browser (Ubuntu/Docer)
 
-* Run both scenarios with Docker image
+* Pull Docker image
 
 ```cmd
 docker pull everpalm/test_docker_build:v3
+```
+
+* Run Docker image everpalm/test_docker_build
+* 
+```cmd
 docker run --privileged -v /home/ubuntu/test_docker_build:/mnt $DOCKER_HUB_USERNAME/test_docker_build:v3 robot firefox_user.robot
 ```
 
