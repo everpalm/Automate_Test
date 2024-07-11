@@ -122,7 +122,8 @@ The delete_and_validate_user.robot test case includes the following steps:
 <img width="787" alt="Screenshot 2024-07-06 at 10 51 02 AM" src="https://github.com/everpalm/Automate_Test/assets/8126143/c26417fa-48da-469e-bc3a-6af7aa1d0539">
 
 ### 4.3 Firefox (Linux/Docker)
-<img width="1001" alt="Screenshot 2024-07-11 at 7 59 44 PM" src="https://github.com/everpalm/Automate_Test/assets/8126143/7f32add8-67b4-4331-88c5-2eacc8be6c76">
+<img width="783" alt="Screenshot 2024-07-11 at 8 03 52 PM" src="https://github.com/everpalm/Automate_Test/assets/8126143/c3b1413b-f1ed-403f-9a2d-9f2fa009a677">
+
 
 
 
