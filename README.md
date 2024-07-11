@@ -96,6 +96,16 @@ robot --test "Delete And Validate User" safari_user.robot
 robot safari_user.robot
 ```
 
+### 2.4 Firefox Browser (Ubuntu/Docer)
+
+* Run both scenarios with Docker image
+
+```cmd
+docker pull everpalm/test_docker_build:v3
+docker run --privileged -v /home/ubuntu/test_docker_build:/mnt $DOCKER_HUB_USERNAME/test_docker_build:v3 robot firefox_user.robot
+```
+
+
 ## 3. Test Details
 
 ### 3.1 Add and Validate User
