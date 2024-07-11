@@ -25,7 +25,7 @@ This repository contains Robot Framework test cases for automating user manageme
 - Python 3.x installed
 - Robot Framework installed
 - SeleniumLibrary installed
-- Browser driver (Supports EdgeDriver, ChromeDriver, and SafariDriver) installed and added to PATH
+- Browser driver (Supports EdgeDriver, ChromeDriver, SafariDriver, and GeckoDriver) installed and added to PATH
 
 ### Installing Robot Framework and SeleniumLibrary
 
@@ -120,6 +120,10 @@ The delete_and_validate_user.robot test case includes the following steps:
 
 ### 4.2 Chrome (Windows)
 <img width="787" alt="Screenshot 2024-07-06 at 10 51 02 AM" src="https://github.com/everpalm/Automate_Test/assets/8126143/c26417fa-48da-469e-bc3a-6af7aa1d0539">
+
+### 4.3 Firefox (Linux/Docker)
+<img width="1001" alt="Screenshot 2024-07-11 at 7 59 44 PM" src="https://github.com/everpalm/Automate_Test/assets/8126143/7f32add8-67b4-4331-88c5-2eacc8be6c76">
+
 
 
 
